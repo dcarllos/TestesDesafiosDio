@@ -3,7 +3,7 @@ package davicarlos.com.testesdio;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class desafio03 {
+public class Desafio03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
@@ -19,14 +19,14 @@ public class desafio03 {
 
             if (produtos == 1001)
                 valor = 1.50;
-            else if (        )
-                valor =     ;
-            else if (produtos ==      )
-                valor =       ;
-            else if (produtos ==      )                  //complete o código nos espaços em branco
-                valor =    ;
-            else if (produtos ==      )
-                valor =        ;
+            else if (produtos == 1002)
+            valor = 2.50;
+			else if (produtos == 1003)
+                valor = 3.50;
+            else if (produtos == 1004)                  //complete o código nos espaços em branco
+                valor = 4.50;
+            else if (produtos == 1005)
+                valor = 5.50;
 
             res += valor * quantidade;
         }
